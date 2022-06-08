@@ -1,0 +1,128 @@
+header
+{
+	font-family: Courier New;
+	color: rgba(241, 186, 121, 255);
+	width: 90%;
+
+}
+h1,h2
+{
+	font-family: Impact;
+	color: rgba(38, 31, 39, 255);
+	width: 50%;
+	letter-spacing: 1px;
+
+
+}
+body
+{
+	background-color: rgba(123,54,67,255);
+	margin-left: 25px;
+
+}
+a:hover
+{
+	color: transparent;
+
+}
+img
+{
+	width:1227px;
+	z-index: 1;
+
+}
+.btn
+{
+	border-color: transparent;
+	border-style: solid;
+	z-index: 2;
+	padding: 20px 70px;
+	text-decoration: none;
+	margin-bottom: 40px;
+	position: relative;
+	bottom: 98px;
+	left: 80px;
+	color: transparent;
+	cursor: pointer;
+}
+footer
+{
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	
+}
+button
+{
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	height: 100px;
+	width: 100px;
+	margin-bottom: 40px;
+	border: none;
+	text-decoration: none;
+	font-size: 4.5em;
+border-radius: 50%;
+background: #793241;
+box-shadow:  5px 5px 8px #612834,
+             -5px -5px 8px #913c4e;
+}
+button:hover
+{
+border-radius: 50%;
+background: #793241;
+box-shadow: inset 5px 5px 8px #612834,
+            inset -5px -5px 8px #913c4e;
+
+}
+.bouton
+{
+	text-decoration: none;
+	color: transparent;
+	cursor: pointer;
+	border-style: solid;
+	border-radius: 50%;
+
+}
+center
+{
+	justify-content: center;
+	margin-bottom: 50px;
+	margin-top: 30px;
+	margin-right: 20px;
+
+}
+div
+{
+	width: 1227px;
+	border-color: transparent;
+	border-style: solid;
+
+}
+.images
+{
+	display: flex;
+	animation-duration: 30s;
+	animation-name: mesImages;
+	animation-iteration-count: infinite;	
+}
+#caroussel
+{
+	width: 1150px;
+	overflow: hidden;
+	
+}
+@keyframes mesImages
+{
+	0%{transform: translateX(0px);
+	}
+	25%{transform: translateX(-1168px);
+	}
+	50%{transform: translateX(-2185px);
+	}
+	75%{transform: translateX(-3750px);
+	}
+	100%{transform: translateX(0);
+	}
+}
